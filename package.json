@@ -1,0 +1,19 @@
+{
+  "name": "preentrega2galvanwalterc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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1~@github.com/waltergal/shezamin-waltergalvan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waltergal/shezamin-waltergalvan/issues"
+  },
+  "homepage": "https://github.com/waltergal/shezamin-waltergalvan#readme"
+}
