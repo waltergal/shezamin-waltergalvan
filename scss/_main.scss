@@ -1,0 +1,37 @@
+.galeria {
+    width: 50px;
+    height: auto;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .boton {
+    margin-bottom: 2px;
+    background-color: aqua;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 5px;
+  }
+  
+  .row {
+    width: 100%;
+    margin: 50px;
+  }
+  
+  .container {
+    margin: 20px;
+  }
+  
+  h3 {
+    font-family: "Roboto", sans-serif;
+    margin: 10px;
+  }
+  

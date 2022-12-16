@@ -43,6 +43,10 @@ img {
   text-align: center;
 }
 
+a:hover {
+    color: #090;
+  }
+  
 .fondo {
   height: 100%;
   margin: 0px;
@@ -50,6 +54,18 @@ img {
   background-position: center;
   font-family: sans-serif;
   text-align: center;
+}
+
+.tinvierno {
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #89f, 3px -3px 5px #89f, -3px 3px 5px #89f, -3px -3px 5px #89f;
+  color: white;
+}
+
+.sobretitulo {
+  position: relative;
+  top: 2em;
+  z-index: 999;
 }
 
 .celda {
@@ -69,81 +85,3 @@ img {
 .imagen_logo {
   max-width: 80%;
 }
-
-.tabla {
-  width: 800px;
-  max-width: 100%;
-}
-
-.imagen_footer {
-  width: 70px;
-  height: auto;
-}
-
-.galeria {
-  width: 50px;
-  height: auto;
-}
-
-@media only screen and (max-width: 500px) {
-  .celda {
-    float: left;
-    display: inline;
-  }
-}
-.formulario {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.boton {
-  margin-bottom: 2px;
-  background-color: aqua;
-  width: 100px;
-  text-align: center;
-  justify-content: center;
-}
-
-.card {
-  margin: 5px;
-}
-
-.row {
-  width: 100%;
-  margin: 50px;
-}
-
-.container {
-  margin: 20px;
-}
-
-h3 {
-  font-family: "Roboto", sans-serif;
-  margin: 10px;
-}
-
-footer {
-  margin: 100px;
-  height: 50px;
-  text-align: center;
-}
-
-iframe {
-  margin: 10px;
-  height: 400px;
-}
-
-form {
-  margin: 25px;
-}
-
-.nosotros {
-  display: flex;
-}
-
-a:hover {
-  color: #090;
-}
-
-/*# sourceMappingURL=styles.css.map */
