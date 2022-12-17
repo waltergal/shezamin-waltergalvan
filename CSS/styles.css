@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2? family= Roboto & display=swap");
-@import url("https://fonts.googleapis.com/css2? family= Roboto & display=swap");
 * {
   box-sizing: border-box;
   margin: 0; }
@@ -19,15 +18,6 @@
   transform: scale(1.1);
   text-decoration: underline;
   transition: 0.7s ease; }
-
-.fondo {
-  height: 100%;
-  margin: 0px;
-  background-image: url(../Imagenes/fondo.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  font-family: sans-serif;
-  text-align: center; }
 
 .celda {
   display: inline; }
@@ -142,14 +132,6 @@ img {
 a:hover {
   color: #090; }
 
-.fondo {
-  height: 100%;
-  margin: 0px;
-  background-image: url(../Imagenes/fondoTarjeta.jpg);
-  background-position: center;
-  font-family: sans-serif;
-  text-align: center; }
-
 .tinvierno {
   font-weight: bold;
   text-shadow: 3px 3px 5px #89f, 3px -3px 5px #89f, -3px 3px 5px #89f, -3px -3px 5px #89f;
@@ -212,3 +194,21 @@ footer {
 .imagen_footer {
   width: 70px;
   height: auto; }
+
+iframe {
+  margin: 10px;
+  height: 400px; }
+
+form {
+  margin: 25px; }
+
+.nosotros {
+  display: flex; }
+
+.fondo {
+  height: 100%;
+  margin: 0px;
+  background-image: url(../Imagenes/fondoTarjeta.jpg);
+  background-position: center;
+  font-family: sans-serif;
+  text-align: center; }
